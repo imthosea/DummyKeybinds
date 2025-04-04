@@ -1,0 +1,16 @@
+<idea-plugin url="https://github.com/samvtran/jetbrains-macos-keybindings-for-all">
+  <id>me.thosea.dummykeybinds</id>
+  <name>DummyKeybinds</name>
+  <vendor>Thosea</vendor>
+
+  <description><![CDATA[
+      Adds an empty keymap to allow user keymaps without any inherited keyboard shortcuts.
+    ]]></description>
+
+  <idea-version since-build="0" until-build="9999.*"/>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledKeymap file="DummyKeybinds.xml" />
+  </extensions>
+  <actions />
+</idea-plugin>
